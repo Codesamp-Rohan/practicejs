@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.mainbutton{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    border: 1px solid #9e6ea9;
+    background-color: #9e6ea9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.option{
+    cursor: pointer;
+}
+.subbtn{
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #9e6ea9;
+    background-color: #9e6ea9;
+    flex-direction: column;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+.subbutton{
+    padding: 10px;
+    border: 1px solid #9e6ea9;
+    background-color: #9e6ea9;
+    transition: 0.2s;
+}
+.subbutton:hover{
+    background-color: #863697;
+}
